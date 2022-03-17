@@ -9,10 +9,9 @@
 - [X] __Versionnage__ (.75/1 point)
 - [X] __Mise en ligne sur Github Pages__ (1 point)  
 
-## Commentaires
-[//]: # (<span style='color:red'>)
+## Note 
 <span style='color:red'>
-Note : 8.7 / 10  
+8.7 / 10  
 Voir les commentaires dans le code.   
 </span>
 
