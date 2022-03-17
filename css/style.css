@@ -118,13 +118,17 @@ ul{
     margin:auto;
   }
 }
- 
-main{
+
+/* Mise en commentaire de la règle ci-dessous.
+Elle n'est pas utile car les éléments en "display block"
+s'affichent par défaut de manière superposée, soit, en colonne.
+ */
+/*main{
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
-}
+}*/
 
 /*HEADER*/
 @media(min-width: 600px){

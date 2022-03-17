@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+<!--    il faut relier le "reset" normalize avant les styles du développeur -->
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,8 +24,10 @@
             </ul>
         </nav>
         <picture>
-            <source media="max-width: 600px" srcset="./images/photo-montage_600.jpg">
-            <source media="min-width: 601px" srcset="./images/photo-montage_1000.jpg">
+<!-- Dans les requêtes media des balises `<source>`, il manquait des parenthèses.
+     C'est la même syntaxe que dans la CSS pour des `@media (...)`-->
+            <source media="(max-width: 600px)" srcset="./images/photo-montage_600.jpg">
+            <source media="(min-width: 601px)" srcset="./images/photo-montage_1000.jpg">
             <img class="img__header" src="./images/photo-montage_600.jpg" alt="Photomontage cavalière">
         </picture>
     </header>
