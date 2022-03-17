@@ -12,7 +12,7 @@
 ## Note 
 <span style='color:red'>
 8.7 / 10  
-Voir les commentaires dans le code.   
+Bravo pour ta persévérance et ton travail discipliné. Voir les commentaires techniques dans le code.   
 </span>
 
 ## Barème
